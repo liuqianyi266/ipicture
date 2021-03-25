@@ -278,7 +278,7 @@
                             }
                         }
                     },
-                    {field: 'telphone', title: 'telphone'},
+                    {field: 'telephone', title: 'telephone'},
                     {field: 'email', title: 'email'},
                     {
                         field: 'status', title: 'status', formatter: function (value, row, index) {
@@ -354,7 +354,6 @@
         var postdata = {};
 
         oInit.Init = function () {
-            //初始化页面上面的按钮事件
             $("#btn_search").click(function () {
                 $('#userTable').bootstrapTable(('refresh'));
             })
@@ -401,7 +400,7 @@
             contentType: "application/json",
             data: JSON.stringify(data),
             beforeSend: function () {
-                // 禁用按钮防止重复提交
+
                 $(".edit").attr({disabled: "disabled"});
             },
             success: function (data) {
@@ -477,7 +476,6 @@
             contentType: "application/json",
             data: JSON.stringify(data),
             beforeSend: function () {
-                // 禁用按钮防止重复提交
                 $("#audit").attr({disabled: "disabled"});
             },
             success: function (data) {

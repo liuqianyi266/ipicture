@@ -57,7 +57,6 @@
                 contentType: "application/json",
                 data: JSON.stringify(data),
                 beforeSend: function () {
-                    // 禁用按钮防止重复提交
                     $("#login_submit").attr({disabled: "disabled"});
                 },
                 success: function (data) {

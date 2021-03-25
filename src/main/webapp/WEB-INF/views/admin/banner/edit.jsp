@@ -66,7 +66,7 @@
                                     <div   id="banner" style="display: block">
                                         <div class="fileinput fileinput-new" data-provides="fileinput" id="uploadImageDiv" >
                                             <div class="fileinput-new thumbnail" style="width: 750px; height: 300px;">
-                                                <img src="${banner.url==null?'/static/images/1.jpg':banner.url}" alt="" />
+
                                             </div>
                                             <div class="fileinput-preview fileinput-exists thumbnail" style="min-width: 750px; min-height: 300px;"></div>
                                             <div>

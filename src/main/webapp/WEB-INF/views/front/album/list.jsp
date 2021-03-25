@@ -57,15 +57,7 @@
             <a href="${basePath}/album.html?type=${type}&pageNo=${page.pageNo-1}${wd==null?'':wd}">Previous</a>
           </c:otherwise>
         </c:choose>
-        <! With a page to display 5 page numbers as the basis, specific display several pagination button can be set according to their own website -->
-        <! -- Calculates two variables begin page and end page, using the current page (pageNo), totalPage (totalPage) -->
-        <! -- Mainly divided into the following situations:
-        1. When the total number of pages is less than 5, display all page numbers, i.e. BEGIN =1, END =5.
-        2. When the total number of pages is greater than 5, set BEGIN and END by formula, BEGIN = PAGENO -2, END = PAGENO +2.
-        3. In Step 2, the following two situations will occur again:
-        A. If begin<1, then let begin=1 and end=5;
-        B. If end> TotalPage, begin=totalPage-4,end=totalPage
-        -->
+
         <c:choose>
           <c:when test="${page.totalPage<=5}">
             <c:set var="begin" value="1"/>
@@ -85,7 +77,6 @@
           </c:otherwise>
         </c:choose>
 
-        <! -- Loops page number -->
         <c:if test="${begin>1}">
           <span>...</span>
         </c:if>

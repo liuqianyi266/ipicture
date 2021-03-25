@@ -34,14 +34,14 @@
             <li class="treeview">
                 <a href="javascript:void(0)">
                     <i class="fa fa-book"></i>
-                    <span>Loop Play Management</span>
+                    <span>Loop Player Management</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/admin/banner"><i class="fa fa-circle-o"></i> <span>Loop Play Management</span></a></li>
-                    <li><a href="/admin/banner/edit"><i class="fa fa-circle-o"></i> <span>Loop Play Add</span></a></li>
+                    <li><a href="/admin/banner"><i class="fa fa-circle-o"></i> <span>Loop Player Management</span></a></li>
+                    <li><a href="/admin/banner/edit"><i class="fa fa-circle-o"></i> <span>Loop Player Add</span></a></li>
                 </ul>
             </li>
 
@@ -63,7 +63,7 @@
             <li class="treeview">
                 <a href="javascript:void(0)">
                     <i class="fa fa-list"></i>
-                    <span>Friendly Link Management</span>
+                    <span>Link Management</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>

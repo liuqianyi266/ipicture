@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Friendly Link Management</title>
+    <title>Link Management</title>
     <%@include file="/static/comm/admin/taglib.jsp" %>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -82,7 +82,7 @@
 </div>
 <!-- /wrapper -->
 
-<!-- 修改或者添加用户模态框 -->
+<!-- -->
 <div class="modal fade" id="linkEditModal" tabindex="-1" role="dialog" aria-labelledby="linkEditModalLabel"
      aria-hidden="true">
     <div class="modal-dialog">
